@@ -17,7 +17,11 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline; }
-
+  h1 {
+    font-size: 8em;
+    text-align: center;
+    color: #325158;
+  }
 body {
   line-height: 1; }
 
@@ -29,7 +33,7 @@ table {
   border-spacing: 0; }
 
 caption, th, td {
-  text-align: left;
+  text-align: center;
   font-weight: normal;
   vertical-align: middle; }
 
@@ -54,10 +58,4 @@ a {
   a:hover {
     color: #009ce0; }
 
-#main {
-  padding: 50px; }
-  h1 {
-    font-size: 8em;
-    color: #ff69b4;
-  }
-  
+
