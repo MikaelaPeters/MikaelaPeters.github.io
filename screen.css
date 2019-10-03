@@ -20,21 +20,18 @@ time, mark, audio, video {
   h1 {
     font-size: 8em;
     text-align: center;
-    color: #325158;
+    color: #FFFFFF;
+    background: #f2cfc0;
   }
 body {
   line-height: 1; }
 
 p { text-align: center; padding: 50px}
 
-div#links {
-  text-align: center
- }
-
 div#photo {
   padding: 100px;
   align-items: center;
-  border: #325158
+  background: #e6c372
 }
 
 ol, ul {
