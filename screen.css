@@ -23,6 +23,7 @@ time, mark, audio, video {
     color: #FFFFFF;
     background: #f2cfc0;
     text-emphasis-color: #c2b9ad;
+    font: bold
   }
 body {
   line-height: 1; }
@@ -39,7 +40,7 @@ div#photo {
   background: #e6c372;
 }
 
-footer{text-align: center}
+footer{text-align: center; color: #FFFFFF}
 
 ol, ul {
   list-style: none; }
