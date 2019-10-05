@@ -22,6 +22,7 @@ time, mark, audio, video {
     text-align: center;
     color: #FFFFFF;
     background: #f2cfc0;
+    text-emphasis-color: #c2b9ad;
   }
 body {
   line-height: 1; }
@@ -37,7 +38,8 @@ div#links {
 div#photo {
   align-items: center;
   background: #e6c372;
-  border-block: #c2b9ad;
+  height: 200px;
+  width: 200px
 }
 
 footer{text-align: center}
