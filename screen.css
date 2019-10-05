@@ -29,10 +29,12 @@ body {
 p { text-align: center; padding: 50px}
 
 div#photo {
-  padding: 100px;
+  padding: 500px;
   align-items: center;
   background: #e6c372
 }
+
+footer{text-align: center}
 
 ol, ul {
   list-style: none; }
