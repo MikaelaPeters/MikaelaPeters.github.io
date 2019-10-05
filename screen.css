@@ -28,10 +28,17 @@ body {
 
 p { text-align: center; padding: 50px}
 
+div#links {
+  text-align: center;
+  padding-block: 50px
+
+}
+
 div#photo {
   padding: 500px;
   align-items: center;
-  background: #e6c372
+  background: #e6c372;
+  border-block: #c2b9ad;
 }
 
 footer{text-align: center}
