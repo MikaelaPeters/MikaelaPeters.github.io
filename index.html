@@ -6,6 +6,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+      document.getElementById("mainHeader").onclick = function() {
+        this.style.color = 'orange'
+         }
+      })
+</script>
+
     <title>Mikaela's Portfolio</title>
 
     <!-- Bootstrap core CSS -->
@@ -54,7 +62,7 @@
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
         <div class="container">
-          <h1 onclick="this.style.color='orange';" class="display-3">Mikaela Peters</h1>
+          <h1 id="mainHeader" class="display-3">Mikaela Peters</h1>
           <p>A rising senior at Oreogn State University in Bend, majoring in Psychology with a science focus. Passionate about mental health and adding a little more joy to the world.</p>
           <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
         </div>
