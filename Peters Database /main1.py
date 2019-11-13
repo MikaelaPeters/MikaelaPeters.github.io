@@ -28,4 +28,3 @@ with open("sample.csv","r")as sample_csv:
         db.execute(sql_insert,[user_id, rental_id, start_lat, start_lon, end_lat, end_lon, start_time, end_time, membership_name, sql_insert])
         db.commit()e
     db.close()
-    
