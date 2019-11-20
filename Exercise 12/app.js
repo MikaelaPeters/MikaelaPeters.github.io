@@ -10,11 +10,35 @@ app.get('/zagster', (request, response) => {
         connectionstrong: DATABASE_URL,
     })
 
-    pool.query('SELECT * FROM rides LIMIT 1', (err, results)=> {
+    pool.query('SELECT * FROM rides', (err, results)=> {
         response.send(results.rows[0])
         pool.end()
     })
 })
+
+
+app.get('/algorithms',(request,response)=> {
+    response.send('derived from a mathematicians name')
+})
+
+app.get('/rides/count', (request, response) => {
+    const pool = new Pool ({
+        connectionstrong: DATABASE_URL,
+    })
+
+    pool.query('SELECT COUNT * FROM rides', (err, results)=> {
+        response.send(results.rows[0])
+        pool.end()
+    })
+})
+
+
+
+
+
+
+
+
 
 app.get('/',(request,response)=> {
     response.send('I am listening!')
