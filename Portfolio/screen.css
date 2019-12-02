@@ -32,13 +32,22 @@ body {
   padding-top: 3.5rem;
 }
 
+div#navbarsExampleDefault{
+  font-family: 'Courier New', Courier, monospace;
+}
+
 body {
   line-height: 1; }
 
-p { text-align: center; padding: 50px}
+p { text-align: center; padding: 50px; font-family: 'Courier New', Courier, monospace;}
 
 div#links {
-  text-align: center;
+  text-align: center; font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center
 }
 
 div#photo {
