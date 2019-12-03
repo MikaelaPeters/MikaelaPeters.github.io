@@ -19,10 +19,9 @@ time, mark, audio, video {
   vertical-align: baseline; }
   h1 {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 8em;
+    font-size: 12em;
     text-align: center;
-    color: #FFFFFF;
-    background: #f2cfc0;
+    color: black;
     text-emphasis-color: #c2b9ad;
     font: bold
   }
@@ -47,7 +46,8 @@ div#links {
 
 h2{
   font-family: 'Courier New', Courier, monospace;
-  text-align: center
+  text-align: center;
+  font-size: 2em
 }
 
 div#photo {
@@ -86,8 +86,8 @@ body {
   color: #2a2a2a; }
 
 a {
-  color: #0388a6; }
+  color: #f2cfc0; }
   a:hover {
-    color: #009ce0; }
+    color: #f2cfc0; }
 
 
